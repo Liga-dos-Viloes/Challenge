@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+nav {
+    display: flex;
+    padding: 20px;
+    color: black;
+}
+nav ul li, a {
+    text-decoration: none;
+    list-style: none;
+}
+
+nav a{
+    padding: 10px;
+    border: white 1px solid;
+}
