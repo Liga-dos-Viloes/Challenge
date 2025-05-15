@@ -13,13 +13,14 @@
 /* nav bar  */
 
 .nav-container {
-    padding: 40px;
+    padding: 2.5em;
+    /* padding: 40px; */
     background-color: black;
+    /* justify-content: space-around; */
 }
 .nav-container, ul{
     display: flex;
     justify-content: space-around;
-    gap: 20px;
 }
 
 .nav-container ul li, a {
@@ -28,7 +29,7 @@
 }
 
 .nav-container a{
-    padding: 10px;
+    padding: 0.6em;
     color: white;
     border-bottom: white 1px solid;
 }
@@ -38,13 +39,20 @@
     transition: ease-in-out 0.3s;    
 }
 
+
 @media (max-width: 600px) {
 .nav-container a{
     display: none;
+    align-items: center;
 }
 #aba-selecionada {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
+
 }
 
 
@@ -74,8 +82,9 @@ footer {
 }
 footer p{
     color: white;
+    font-size: 0.7em;
 }
 footer img {
-    width: 50px;
+    width: 2.5em;
     border-radius: 5px;
 }
