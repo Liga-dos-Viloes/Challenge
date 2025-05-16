@@ -1,0 +1,26 @@
+@media (max-width: 600px) {
+    
+
+    .nav-wide {
+        display: none;
+    }
+
+    .nav-cell {
+        display: flex;
+    }
+
+    #toggle-menu{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        background-color: black;
+        color: white;
+        /* border-radius: 5px; */
+        padding: 0.5em;
+    }
+
+    #aba-selecionada {
+        border: 0;
+
+    }
+}

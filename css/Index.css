@@ -11,6 +11,10 @@
   }
 
 /* nav bar  */
+.nav-cell {
+    display: none;
+}
+
 
 .nav-container {
     padding: 2.5em;
