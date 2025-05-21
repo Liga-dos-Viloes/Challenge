@@ -9,6 +9,15 @@
     font-family: 'Poppins', Arial, sans-serif;
 }
 
+header {
+    background-color: #e8f4f8;
+    padding: 2em 1em;
+    text-align: center;
+}
+header h1 {
+    font-size: 2em;
+    color: #004466;
+}
 
 .nav-container {
     padding: 1em;
