@@ -2,7 +2,6 @@
 
 
 /* tirando todas estilizacoes padroes do sistema */
-
 * {
     margin: 0;
     padding: 0;
@@ -10,11 +9,11 @@
     font-family: "Poppins" ,Arial, Helvetica, sans-serif;
   }
 
-/* nav bar  */
-.nav-cell {
-    display: none;
-}
 
+@media (min-width: 600px) {
+    #aba {
+    border-bottom: white 1px solid;
+}
 
 .nav-container {
     padding: 2.5em;
@@ -35,7 +34,7 @@
 .nav-container a{
     padding: 0.6em;
     color: white;
-    border-bottom: white 1px solid;
+    /* border-bottom: white 1px solid; */
 }
 .nav-container a:hover{
     background-color: white;
@@ -43,21 +42,15 @@
     transition: ease-in-out 0.3s;    
 }
 
+}
 
-@media (max-width: 600px) {
-.nav-container a{
+
+
+/* nav bar  */
+.nav-cell {
     display: none;
-    align-items: center;
-}
-#aba-selecionada {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-
-
-}
 
 
 /* cabecalho estilizacoes  */

@@ -1,26 +1,37 @@
 @media (max-width: 600px) {
-    
-
     .nav-wide {
         display: none;
     }
-
     .nav-cell {
         display: flex;
+        /* justify-content: space-around; */
+        padding: 1em;
+        background-color: black;
+    }
+    .nav-cell li {
+        /* text-decoration: none; */
+        list-style: none;
+    }
+    #aba{
+        display: flex;
+}
+    .nav-cell ul{
+        display: flex;
+        justify-content: center;
     }
 
-    #toggle-menu{
+    
+    .nav-cell button{
         display: flex;
-        justify-content: start;
-        align-items: start;
         background-color: black;
         color: white;
-        /* border-radius: 5px; */
         padding: 0.5em;
+        justify-content: flex-start;
     }
-
-    #aba-selecionada {
-        border: 0;
-
-    }
+    .nav-cell a{
+    display: none;
+    text-decoration: none;
+    
+}
+    
 }
