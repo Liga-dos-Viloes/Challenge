@@ -1,0 +1,26 @@
+.nav-container {
+    padding: 2.5em;
+    /* padding: 40px; */
+    background-color: black;
+    /* justify-content: space-around; */
+}
+.nav-container, ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-container ul li, a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-container a{
+    padding: 0.6em;
+    color: white;
+    border-bottom: white 1px solid;
+}
+.nav-container a:hover{
+    background-color: white;
+    color: black;
+    transition: ease-in-out 0.3s;    
+}
