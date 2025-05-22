@@ -32,3 +32,27 @@
     /* margin-right: 2em; */
     border: 3px solid #1f1f1f1f;
 }
+
+.int-label div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+
+.int-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+    /* margin-bottom: 0.4em; */
+    /* color: #111; */
+}
+
+.int-label p {
+    font-size: 1rem;
+    color: #555;
+    /* margin: 0; */
+}
