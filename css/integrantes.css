@@ -17,6 +17,7 @@
     max-width: 50em;
     box-shadow: 0 4px 12px #1f1f1f1f;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    /* justify-content: space-around; */
 }
 
 .int-label:hover {
@@ -24,7 +25,7 @@
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
 
-.int-label img {
+.int-label #profile {
     /* height: 100px; */
     width: 8em;
     object-fit: cover;
@@ -33,7 +34,7 @@
     border: 3px solid #1f1f1f1f;
 }
 
-.int-label div {
+.int-label .text {
     width: 100%;
     height: 100%;
     display: flex;
@@ -55,4 +56,36 @@
     font-size: 1rem;
     color: #555;
     /* margin: 0; */
+}
+
+.social img{
+    display: flex;
+    align-items: center;
+    
+    width: 2em;
+    height: 2em;
+    margin: 0 0.5em;
+    /* transition: transform 0.2s ease; */
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .int-label {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    }
+
+    /* .int-label img {
+        padding: 0 0 0 0;
+    } */
+
+    .int-label div {
+        align-items: center;
+    }
 }
