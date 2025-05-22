@@ -1,10 +1,12 @@
+
+
 .integrantes-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 2em;
     gap: 2em;
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
 }
 .int-label {
     background-color: #ffffff;
@@ -58,15 +60,27 @@
     /* margin: 0; */
 }
 
+
+.social {
+    display: flex;
+    flex-direction: column;
+    /* align-content: ; */
+    /* justify-content: column; */
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    /* margin-top: 1em; */
+}
+
 .social img{
     display: flex;
     align-items: center;
-    
+    /* justify-content: ; */
     width: 2em;
     height: 2em;
     margin: 0 0.5em;
-    /* transition: transform 0.2s ease; */
 }
+
 
 
 
@@ -79,11 +93,12 @@
         flex-direction: column;
         text-align: center;
         height: auto;
+        gap: 1em;
     }
+.social {
+    flex-direction: row;
+}
 
-    /* .int-label img {
-        padding: 0 0 0 0;
-    } */
 
     .int-label div {
         align-items: center;
