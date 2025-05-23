@@ -84,8 +84,15 @@ header h2 {
 }
 article img{
     width: 20em;
-    border-radius: 100%;
+    /* border-radius: 100%; */
 }
+.exemplar p{
+    font-size: 0.7em;
+}
+
+
+
+
 .content-container ul{
     flex-direction: column;
     list-style: none;
