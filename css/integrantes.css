@@ -81,7 +81,10 @@
     margin: 0 0.5em;
 }
 
-
+.card-container {
+    display: flex;
+    background-color: #ffffff;
+}
 
 
 
