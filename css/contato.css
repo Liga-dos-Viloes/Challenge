@@ -55,3 +55,65 @@ form button:hover {
     text-align: center;
 }
 
+@media (max-width: 600px) {
+  .form-container {
+    flex-direction: column;
+    padding: 1.5em 1em;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  form input, form textarea {
+    font-size: 0.95em;
+  }
+
+  form button {
+    font-size: 1em;
+    width: 100%;
+  }
+
+  header h1 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+}
+
+
+@media (min-width: 600px) {
+  form {
+    width: 80%;
+  }
+}
+
+@media (min-width: 768px) {
+  .form-container {
+    padding: 2em;
+  }
+
+  form {
+    width: 28em;
+  }
+}
+
+
+@media (min-width: 992px) {
+  form {
+    width: 30em;
+  }
+
+  header h1 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  form {
+    width: 35em;
+  }
+
+  .form-container {
+    padding: 3em;
+  }
+}
