@@ -41,7 +41,7 @@
 
 footer {
     display: flex;
-    width: 100vw;
+    width: 100%;
     background-color: black;
     padding: 0.5em;
     justify-content: space-between;
