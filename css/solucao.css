@@ -1,13 +1,15 @@
+main {
+    height: 100vh;
+}
 
-/* Header */
 header {
-    background-color: #e8f4f8;
+    /* background-color: #e8f4f8; */
     padding: 2em 1em;
     text-align: center;
 }
 header h1 {
     font-size: 2em;
-    color: #004466;
+    color: #000;
 }
 
 /* Main Content */
@@ -19,7 +21,7 @@ main {
 }
 main h2 {
     font-size: 1.8em;
-    color: #004466;
+    color: #000;
     margin-bottom: 1em;
     text-align: center;
 }
@@ -52,26 +54,6 @@ main h2 {
     color: #555;
     font-size: 1rem;
     line-height: 1.5;
-}
-
-footer {
-    background-color: #004466;
-    color: white;
-    padding: 1em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    text-align: center;
-    gap: 1em;
-    margin-top: auto;
-}
-footer p {
-    font-size: 0.9em;
-}
-footer img {
-    width: 40px;
-    height: 40px;
 }
 
 /* Responsividade */
