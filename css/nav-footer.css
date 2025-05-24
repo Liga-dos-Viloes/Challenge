@@ -56,7 +56,7 @@ footer img {
     width: 2.5em;
     border-radius: 5px;
 }
-#paragrafo-cell {
+#paragrafo-600 {
     display: none;
 }
 
@@ -65,6 +65,7 @@ footer img {
     .problem-container h2 {
         text-align: center;
     }
+    
 }
 
 
@@ -85,7 +86,7 @@ footer img {
 
 
     #paragrafo-600 {
-    
+    text-align: center;
     display: flex;
 }
 
@@ -117,5 +118,11 @@ footer img {
 @media (max-width: 425px) {
     #paragrafo-600{
         font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 375px) {
+    article img {
+        width: 16em;
     }
 }
