@@ -22,7 +22,7 @@
     display: none;
     align-items: center;
 }
-#aba-selecionada {
+#aba{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,7 +43,7 @@ main {
     height: 100%;
 }
 header {
-    padding: 0.5em;
+    padding: 0.8em;
 }
 
 .header-container{
@@ -65,7 +65,7 @@ header h2 {
     flex-direction: column;
     justify-content: space-around;
     gap: 1em;
-    padding: 1em;
+    padding: 0em 1em 1em 1em;
     
 }
 
@@ -165,20 +165,4 @@ article img{
 
 /* rodape estilizacao */
 
-footer {
-    display: flex;
-    background-color: black;
-    padding: 0.5em;
-    justify-content: space-between;
-    align-items: center;
-    /* align-content: flex-end; */
-}
-footer p{
-    /* width: 100%; */
-    color: #fff;
-    font-size: 0.7em;
-}
-footer img {
-    width: 2.5em;
-    border-radius: 5px;
-}
+
