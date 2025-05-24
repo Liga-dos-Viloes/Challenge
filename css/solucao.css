@@ -1,34 +1,3 @@
-/* Resetando estilos padrões */
-html, body {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Poppins', Arial, sans-serif;
-}
-
-/* Navegação */
-.nav-container {
-    padding: 1em;
-    background-color: #004466;
-}
-.nav-container ul {
-    display: flex;
-    justify-content: center;
-    gap: 1.5em;
-}
-.nav-container ul li {
-    list-style: none;
-}
-.nav-container ul li a {
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
-    transition: color 0.3s;
-}
-.nav-container ul li a:hover {
-    color: #00ccff;
-}
 
 /* Header */
 header {
@@ -56,13 +25,13 @@ main h2 {
 }
 
 /* Cards */
-.card-container {
+.card-container-so {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     padding: 20px;
 }
-.card {
+.card-so {
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -71,15 +40,15 @@ main h2 {
     text-align: center;
     transition: transform 0.3s;
 }
-.card:hover {
+.card-so:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
-.card h3 {
+.card-so h3 {
     margin-bottom: 15px;
     font-size: 1.2rem;
 }
-.card p {
+.card-so p {
     color: #555;
     font-size: 1rem;
     line-height: 1.5;
