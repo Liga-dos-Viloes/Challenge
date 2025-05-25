@@ -1,4 +1,4 @@
-main {
+section {
     height: 100vh;
 }
 
@@ -13,12 +13,12 @@ header h1 {
 }
 
 /* Main Content */
-main {
+/* main {
     flex: 1;
     padding: 2em 1em;
     line-height: 1.6;
     color: #333;
-}
+} */
 main h2 {
     font-size: 1.8em;
     color: #000;
