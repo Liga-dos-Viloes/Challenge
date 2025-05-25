@@ -53,28 +53,9 @@ O **ConectaReab** tem como objetivo principal reduzir a taxa de absenteísmo das
 
 | Nome               | RM     | Turma | GitHub                                   | LinkedIn                                       |
 |--------------------|--------|--------|------------------------------------------|------------------------------------------------|
-| Kaiky Pereira      | XXXXX  | 1TDS   | [rodrigueszkkk](https://github.com/rodrigueszkkk) | [Kaiky Pereira](https://www.linkedin.com/in/kaikypereira/) |
-| Gabriel Solano     | XXXXX  | 1TDS   | [GabSolano](https://github.com/GabSolano)        | [Gabriel Solano](https://www.linkedin.com/in/gabriel-solano-165290363/) |
-| Leandro Guarido    | XXXXX  | 1TDS   | [LeandroGuaridoOliveira](https://github.com/LeandroGuaridoOliveira) | [Leandro Guarido](https://www.linkedin.com/in/leandroguaridooliveira/) |
-
----
-
-## 📷 Prints do Projeto
-
-### ✅ Página Inicial
-![home](img/preview-home.png)
-
-### ✅ Página de Solução
-![solucao](img/preview-solucao.png)
-
-### ✅ Página FAQ
-![faq](img/preview-faq.png)
-
-### ✅ Página de Contato
-![contato](img/preview-contato.png)
-
-### ✅ Página de Integrantes
-![integrantes](img/preview-integrantes.png)
+| Kaiky Pereira      | 564578  | 1TDSPV   | [rodrigueszkkk](https://github.com/rodrigueszkkk) | [Kaiky Pereira](https://www.linkedin.com/in/kaikypereira/) |
+| Gabriel Solano     | 562325  | 1TDSPV   | [GabSolano](https://github.com/GabSolano)        | [Gabriel Solano](https://www.linkedin.com/in/gabriel-solano-165290363/) |
+| Leandro Guarido    | 561760  | 1TDSPV   | [LeandroGuaridoOliveira](https://github.com/LeandroGuaridoOliveira) | [Leandro Guarido](https://www.linkedin.com/in/leandroguaridooliveira/) |
 
 ---
 
@@ -95,4 +76,4 @@ O **ConectaReab** tem como objetivo principal reduzir a taxa de absenteísmo das
 
 ## 🛡️ Licença
 
-Projeto acadêmico - Todos os direitos reservados à FIAP e equipe "Liga dos Vilões" © 2025.
+Projeto acadêmico - Todos os direitos reservados à FIAP e equipe "ConectaReab" © 2025.
