@@ -1,5 +1,5 @@
-section {
-    height: 100vh;
+main {
+    min-height: 100vh;
 }
 
 header {
@@ -67,10 +67,10 @@ main h2 {
     .card-container {
         grid-template-columns: 1fr;
     }
-    footer {
+    /* footer {
         flex-direction: column;
         gap: 0.5em;
-    }
+    } */
 }
 
 @media (min-width: 600px) and (max-width: 768px) {
